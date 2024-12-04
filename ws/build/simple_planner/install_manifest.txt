@@ -1,0 +1,4 @@
+/home/tutu/ws/install/simple_planner/lib/pkgconfig/simple_planner.pc
+/home/tutu/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+/home/tutu/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+/home/tutu/ws/install/simple_planner/share/simple_planner/package.xml

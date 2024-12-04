@@ -1,0 +1,3 @@
+Invoking command in '/home/tutu/ws/build/feature_matcher': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/feature_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/feature_matcher
+Invoked command in '/home/tutu/ws/build/feature_matcher' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/feature_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/feature_matcher
+Invoking command in '/home/tutu/ws/build/feature_matcher': /usr/bin/cmake --build /home/tutu/ws/build/feature_matcher -- -j8 -l8

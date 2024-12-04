@@ -1,0 +1,4 @@
+/home/tutu/ws/install/feature_matcher/lib/pkgconfig/feature_matcher.pc
+/home/tutu/ws/install/feature_matcher/share/feature_matcher/cmake/feature_matcherConfig.cmake
+/home/tutu/ws/install/feature_matcher/share/feature_matcher/cmake/feature_matcherConfig-version.cmake
+/home/tutu/ws/install/feature_matcher/share/feature_matcher/package.xml

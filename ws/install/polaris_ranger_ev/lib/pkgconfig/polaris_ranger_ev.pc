@@ -1,0 +1,8 @@
+prefix=/home/tutu/ws/install/polaris_ranger_ev
+
+Name: polaris_ranger_ev
+Description: Description of polaris_ranger_ev
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

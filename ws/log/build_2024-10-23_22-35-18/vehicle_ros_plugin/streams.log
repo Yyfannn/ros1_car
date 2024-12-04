@@ -1,0 +1,5 @@
+[0.040s] Invoking command in '/home/tutu/ws/build/vehicle_ros_plugin': /usr/bin/cmake --build /home/tutu/ws/build/vehicle_ros_plugin -- -j8 -l8
+[0.091s] [35m[1mScanning dependencies of target vehicle_ros_plugin[0m
+[0.301s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicle_ros_plugin.dir/src/VehicleRosPlugin.cpp.o[0m
+[10.334s] [100%] [32m[1mLinking CXX shared library devel/lib/libvehicle_ros_plugin.so[0m
+[10.844s] [100%] Built target vehicle_ros_plugin

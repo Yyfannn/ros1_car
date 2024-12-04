@@ -1,0 +1,6 @@
+Invoking command in '/home/tutu/ws/build/feature_matcher': /usr/bin/cmake --build /home/tutu/ws/build/feature_matcher -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/feature_matcher' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/feature_matcher -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/feature_matcher': /usr/bin/cmake --build /home/tutu/ws/build/feature_matcher --target tests -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/feature_matcher' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/feature_matcher --target tests -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/feature_matcher': /usr/bin/cmake --install /home/tutu/ws/build/feature_matcher
+Invoked command in '/home/tutu/ws/build/feature_matcher' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/feature_matcher

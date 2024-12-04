@@ -1,0 +1,8 @@
+prefix=/home/tutu/ws/MobileRobots-master/install
+
+Name: cart_launch
+Description: Description of cart_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

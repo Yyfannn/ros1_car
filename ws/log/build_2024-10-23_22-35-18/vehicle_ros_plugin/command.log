@@ -1,0 +1,1 @@
+Invoking command in '/home/tutu/ws/build/vehicle_ros_plugin': /usr/bin/cmake --build /home/tutu/ws/build/vehicle_ros_plugin -- -j8 -l8

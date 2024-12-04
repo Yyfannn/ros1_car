@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/tutu/ws/MobileRobots-master/src/mr_ws/src/barrel_slam",
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

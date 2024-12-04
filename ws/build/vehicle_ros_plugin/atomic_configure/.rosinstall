@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tutu/ws/build/vehicle_ros_plugin/devel/setup.sh

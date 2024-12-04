@@ -1,0 +1,50 @@
+[0.043s] Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_planner
+[2.263s] -- The C compiler identification is GNU 9.4.0
+[2.263s] -- The CXX compiler identification is GNU 9.4.0
+[2.263s] -- Check for working C compiler: /usr/bin/cc
+[2.263s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.263s] -- Detecting C compiler ABI info
+[2.263s] -- Detecting C compiler ABI info - done
+[2.263s] -- Detecting C compile features
+[2.263s] -- Detecting C compile features - done
+[2.263s] -- Check for working CXX compiler: /usr/bin/c++
+[2.264s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.264s] -- Detecting CXX compiler ABI info
+[2.264s] -- Detecting CXX compiler ABI info - done
+[2.264s] -- Detecting CXX compile features
+[2.264s] -- Detecting CXX compile features - done
+[2.264s] -- Using CATKIN_DEVEL_PREFIX: /home/tutu/ws/build/simple_planner/devel
+[2.264s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[2.264s] -- This workspace overlays: /opt/ros/noetic
+[2.264s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.264s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.265s] -- Using Debian Python package layout
+[2.265s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.265s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.265s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.265s] -- Call enable_testing()
+[2.265s] -- Using CATKIN_TEST_RESULTS_DIR: /home/tutu/ws/build/simple_planner/test_results
+[2.265s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.265s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.265s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.265s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.266s] -- Found Threads: TRUE  
+[2.266s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.266s] -- catkin 0.8.10
+[2.266s] -- BUILD_SHARED_LIBS is on
+[2.266s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.734s] -- Configuring done
+[2.805s] -- Generating done
+[2.812s] -- Build files have been written to: /home/tutu/ws/build/simple_planner
+[2.835s] Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_planner
+[2.836s] Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner -- -j8 -l8
+[2.914s] [35m[1mScanning dependencies of target simple_planner[0m
+[2.944s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_planner.dir/src/planner.cpp.o[0m
+[2.945s] [ 66%] [32mBuilding CXX object CMakeFiles/simple_planner.dir/src/simple_planner.cpp.o[0m
+[8.874s] [100%] [32m[1mLinking CXX executable devel/lib/simple_planner/simple_planner[0m
+[9.311s] [100%] Built target simple_planner
+[9.333s] Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner -- -j8 -l8
+[9.522s] Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner --target tests -- -j8 -l8
+[9.683s] [35m[1mScanning dependencies of target tests[0m
+[9.718s] Built target tests
+[9.764s] Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner --target tests -- -j8 -l8

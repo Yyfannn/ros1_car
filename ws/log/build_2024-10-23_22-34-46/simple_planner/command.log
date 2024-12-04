@@ -1,0 +1,6 @@
+Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_planner
+Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_planner
+Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner --target tests -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner --target tests -- -j8 -l8

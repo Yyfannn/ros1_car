@@ -1,0 +1,7 @@
+[100%] Built target simple_planner
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/tutu/ws/install/simple_planner/lib/pkgconfig/simple_planner.pc
+-- Installing: /home/tutu/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+-- Installing: /home/tutu/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+-- Installing: /home/tutu/ws/install/simple_planner/share/simple_planner/package.xml

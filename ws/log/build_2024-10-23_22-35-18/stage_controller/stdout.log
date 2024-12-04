@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target stage_throttle[0m
+[35m[1mScanning dependencies of target stage_controller[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/stage_throttle.dir/src/stage_throttle.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stage_controller.dir/src/stage_controller.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable devel/lib/stage_controller/stage_controller[0m
+[100%] [32m[1mLinking CXX executable devel/lib/stage_controller/stage_throttle[0m
+[100%] Built target stage_controller
+[100%] Built target stage_throttle

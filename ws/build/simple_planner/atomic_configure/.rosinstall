@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tutu/ws/build/simple_planner/devel/setup.sh

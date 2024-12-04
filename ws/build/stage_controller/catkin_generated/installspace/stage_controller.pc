@@ -1,0 +1,8 @@
+prefix=/home/tutu/ws/install/stage_controller
+
+Name: stage_controller
+Description: Description of stage_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

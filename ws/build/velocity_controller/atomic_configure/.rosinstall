@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tutu/ws/build/velocity_controller/devel/setup.sh

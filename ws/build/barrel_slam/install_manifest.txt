@@ -1,0 +1,4 @@
+/home/tutu/ws/install/barrel_slam/lib/pkgconfig/barrel_slam.pc
+/home/tutu/ws/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig.cmake
+/home/tutu/ws/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig-version.cmake
+/home/tutu/ws/install/barrel_slam/share/barrel_slam/package.xml

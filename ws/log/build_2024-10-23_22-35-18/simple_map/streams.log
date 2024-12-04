@@ -1,0 +1,14 @@
+[0.050s] Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake --build /home/tutu/ws/build/simple_map -- -j8 -l8
+[0.126s] [100%] Built target simple_map_node
+[0.146s] Invoked command in '/home/tutu/ws/build/simple_map' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_map -- -j8 -l8
+[0.222s] Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake --build /home/tutu/ws/build/simple_map --target tests -- -j8 -l8
+[0.288s] [35m[1mScanning dependencies of target tests[0m
+[0.300s] Built target tests
+[0.327s] Invoked command in '/home/tutu/ws/build/simple_map' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_map --target tests -- -j8 -l8
+[0.420s] Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake --install /home/tutu/ws/build/simple_map
+[0.438s] -- Install configuration: ""
+[0.439s] -- Installing: /home/tutu/ws/install/simple_map/lib/pkgconfig/simple_map.pc
+[0.439s] -- Installing: /home/tutu/ws/install/simple_map/share/simple_map/cmake/simple_mapConfig.cmake
+[0.439s] -- Installing: /home/tutu/ws/install/simple_map/share/simple_map/cmake/simple_mapConfig-version.cmake
+[0.439s] -- Installing: /home/tutu/ws/install/simple_map/share/simple_map/package.xml
+[0.451s] Invoked command in '/home/tutu/ws/build/simple_map' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/simple_map

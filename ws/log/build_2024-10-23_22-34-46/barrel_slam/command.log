@@ -1,0 +1,3 @@
+Invoking command in '/home/tutu/ws/build/barrel_slam': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/barrel_slam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/barrel_slam
+Invoked command in '/home/tutu/ws/build/barrel_slam' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/barrel_slam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/barrel_slam
+Invoking command in '/home/tutu/ws/build/barrel_slam': /usr/bin/cmake --build /home/tutu/ws/build/barrel_slam -- -j8 -l8

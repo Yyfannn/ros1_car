@@ -1,0 +1,6 @@
+Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf --target tests -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf --target tests -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --install /home/tutu/ws/build/odo2tf
+Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/odo2tf

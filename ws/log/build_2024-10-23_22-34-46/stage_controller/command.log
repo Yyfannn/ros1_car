@@ -1,0 +1,1 @@
+Invoking command in '/home/tutu/ws/build/stage_controller': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/stage_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/stage_controller

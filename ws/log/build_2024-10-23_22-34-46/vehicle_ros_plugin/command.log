@@ -1,0 +1,1 @@
+Invoking command in '/home/tutu/ws/build/vehicle_ros_plugin': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/vehicle_ros_plugin

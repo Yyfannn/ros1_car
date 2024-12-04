@@ -1,0 +1,8 @@
+[100%] Built target slam_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/tutu/ws/install/barrel_slam/lib/pkgconfig/barrel_slam.pc
+-- Installing: /home/tutu/ws/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig.cmake
+-- Installing: /home/tutu/ws/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig-version.cmake
+-- Installing: /home/tutu/ws/install/barrel_slam/share/barrel_slam/package.xml

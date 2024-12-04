@@ -1,0 +1,8 @@
+[100%] Built target simple_map_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/tutu/ws/install/simple_map/lib/pkgconfig/simple_map.pc
+-- Installing: /home/tutu/ws/install/simple_map/share/simple_map/cmake/simple_mapConfig.cmake
+-- Installing: /home/tutu/ws/install/simple_map/share/simple_map/cmake/simple_mapConfig-version.cmake
+-- Installing: /home/tutu/ws/install/simple_map/share/simple_map/package.xml

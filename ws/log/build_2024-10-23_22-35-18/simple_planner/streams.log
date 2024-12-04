@@ -1,0 +1,13 @@
+[0.052s] Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner -- -j8 -l8
+[0.128s] [100%] Built target simple_planner
+[0.147s] Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner -- -j8 -l8
+[0.240s] Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner --target tests -- -j8 -l8
+[0.319s] Built target tests
+[0.342s] Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner --target tests -- -j8 -l8
+[0.424s] Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --install /home/tutu/ws/build/simple_planner
+[0.434s] -- Install configuration: ""
+[0.434s] -- Installing: /home/tutu/ws/install/simple_planner/lib/pkgconfig/simple_planner.pc
+[0.434s] -- Installing: /home/tutu/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+[0.435s] -- Installing: /home/tutu/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+[0.435s] -- Installing: /home/tutu/ws/install/simple_planner/share/simple_planner/package.xml
+[0.459s] Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/simple_planner

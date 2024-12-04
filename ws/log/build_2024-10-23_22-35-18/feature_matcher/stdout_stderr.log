@@ -1,0 +1,8 @@
+[100%] Built target feature_matcher
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/tutu/ws/install/feature_matcher/lib/pkgconfig/feature_matcher.pc
+-- Installing: /home/tutu/ws/install/feature_matcher/share/feature_matcher/cmake/feature_matcherConfig.cmake
+-- Installing: /home/tutu/ws/install/feature_matcher/share/feature_matcher/cmake/feature_matcherConfig-version.cmake
+-- Installing: /home/tutu/ws/install/feature_matcher/share/feature_matcher/package.xml

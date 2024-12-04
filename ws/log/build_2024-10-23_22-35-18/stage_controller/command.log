@@ -1,0 +1,1 @@
+Invoking command in '/home/tutu/ws/build/stage_controller': /usr/bin/cmake --build /home/tutu/ws/build/stage_controller -- -j8 -l8

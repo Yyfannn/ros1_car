@@ -1,0 +1,606 @@
+[0.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.167s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5f8986d0d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5f8986d0d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5f896ef490>)
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.313s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tutu/ws'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/build) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/devel) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/devel) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/devel) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/devel) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extension 'cmake'
+[0.410s] WARNING:colcon.colcon_cmake.package_identification.cmake:Ignoring 'MobileRobots-master/src/CMakeLists.txt' since it seems to be a toplevel CMake file generated by 'catkin_make'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/docker/dockerfile) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/build) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/devel) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/devel) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/devel) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/devel) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extension 'cmake'
+[0.416s] WARNING:colcon.colcon_cmake.package_identification.cmake:Ignoring 'MobileRobots-master/src/mr_ws/src/CMakeLists.txt' since it seems to be a toplevel CMake file generated by 'catkin_make'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/barrel_slam) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/barrel_slam' with type 'ros.catkin' and name 'barrel_slam'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/cart_launch) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/cart_launch' with type 'ros.catkin' and name 'cart_launch'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/feature_matcher) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/feature_matcher' with type 'ros.catkin' and name 'feature_matcher'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/mpc_controller) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/mpc_controller' with type 'ros.catkin' and name 'mpc_controller'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/odo2tf) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/odo2tf' with type 'ros.catkin' and name 'odo2tf'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/polaris_ranger_ev) by extension 'ros'
+[0.424s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/polaris_ranger_ev' with type 'ros.catkin' and name 'polaris_ranger_ev'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_controller) by extension 'ros'
+[0.425s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/simple_controller' with type 'ros.catkin' and name 'simple_controller'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_map) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/simple_map' with type 'ros.catkin' and name 'simple_map'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/simple_planner) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/simple_planner' with type 'ros.catkin' and name 'simple_planner'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/stage_controller) by extension 'ros'
+[0.428s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/stage_controller' with type 'ros.catkin' and name 'stage_controller'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin) by extension 'ros'
+[0.429s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin' with type 'ros.catkin' and name 'vehicle_ros_plugin'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(MobileRobots-master/src/mr_ws/src/velocity_controller) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package 'MobileRobots-master/src/mr_ws/src/velocity_controller' with type 'ros.catkin' and name 'velocity_controller'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.457s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_target' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.501s] DEBUG:colcon.colcon_core.verb:Building package 'barrel_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/barrel_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/barrel_slam', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/barrel_slam', 'symlink_install': False, 'test_result_base': None}
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_target' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.501s] DEBUG:colcon.colcon_core.verb:Building package 'cart_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/cart_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/cart_launch', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/cart_launch', 'symlink_install': False, 'test_result_base': None}
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'feature_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/feature_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/feature_matcher', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/feature_matcher', 'symlink_install': False, 'test_result_base': None}
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'odo2tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'odo2tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/odo2tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/odo2tf', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/odo2tf', 'symlink_install': False, 'test_result_base': None}
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'polaris_ranger_ev' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'polaris_ranger_ev' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/polaris_ranger_ev', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/polaris_ranger_ev', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/polaris_ranger_ev', 'symlink_install': False, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'simple_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/simple_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/simple_controller', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller', 'symlink_install': False, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simple_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'simple_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/simple_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/simple_map', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_map', 'symlink_install': False, 'test_result_base': None}
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'simple_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/simple_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/simple_planner', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner', 'symlink_install': False, 'test_result_base': None}
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'stage_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/stage_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/stage_controller', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/stage_controller', 'symlink_install': False, 'test_result_base': None}
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'vehicle_ros_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_ros_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/vehicle_ros_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/vehicle_ros_plugin', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'cmake_target' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'velocity_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'velocity_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/velocity_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/velocity_controller', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/velocity_controller', 'symlink_install': False, 'test_result_base': None}
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'cmake_target' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'mpc_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'mpc_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ws/build/mpc_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ws/install/mpc_controller', 'merge_install': False, 'path': '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/mpc_controller', 'symlink_install': False, 'test_result_base': None}
+[0.506s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.507s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller' with build type 'catkin'
+[0.507s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller'
+[0.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.510s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.513s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/barrel_slam' with build type 'catkin'
+[0.513s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/barrel_slam'
+[0.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.515s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.517s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/cart_launch' with build type 'catkin'
+[0.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/cart_launch'
+[0.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.523s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/feature_matcher' with build type 'catkin'
+[0.523s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/feature_matcher'
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.525s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.527s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/odo2tf' with build type 'catkin'
+[0.528s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/odo2tf'
+[0.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.532s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/polaris_ranger_ev' with build type 'catkin'
+[0.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/polaris_ranger_ev'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.535s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.538s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_map' with build type 'catkin'
+[0.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_map'
+[0.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.543s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner' with build type 'catkin'
+[0.543s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner'
+[0.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.545s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/simple_controller': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_controller
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/barrel_slam': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/barrel_slam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/barrel_slam
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/cart_launch': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/cart_launch -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/cart_launch
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/feature_matcher': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/feature_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/feature_matcher
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/odo2tf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/odo2tf
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/polaris_ranger_ev': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/polaris_ranger_ev -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/polaris_ranger_ev
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_map -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_map
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_planner
+[2.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/cart_launch' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/cart_launch -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/cart_launch
+[2.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/cart_launch': /usr/bin/cmake --build /home/tutu/ws/build/cart_launch -- -j8 -l8
+[2.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/polaris_ranger_ev' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/polaris_ranger_ev -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/polaris_ranger_ev
+[2.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/polaris_ranger_ev': /usr/bin/cmake --build /home/tutu/ws/build/polaris_ranger_ev -- -j8 -l8
+[3.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/odo2tf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/odo2tf
+[3.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf -- -j8 -l8
+[3.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/cart_launch' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/cart_launch -- -j8 -l8
+[3.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/polaris_ranger_ev' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/polaris_ranger_ev -- -j8 -l8
+[3.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/polaris_ranger_ev': /usr/bin/cmake --build /home/tutu/ws/build/polaris_ranger_ev --target tests -- -j8 -l8
+[3.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/simple_map' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_map -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_map
+[3.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake --build /home/tutu/ws/build/simple_map -- -j8 -l8
+[3.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/cart_launch': /usr/bin/cmake --build /home/tutu/ws/build/cart_launch --target tests -- -j8 -l8
+[3.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/simple_controller' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_controller
+[3.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/simple_controller': /usr/bin/cmake --build /home/tutu/ws/build/simple_controller -- -j8 -l8
+[3.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_planner
+[3.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner -- -j8 -l8
+[3.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/feature_matcher' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/feature_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/feature_matcher
+[3.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/feature_matcher': /usr/bin/cmake --build /home/tutu/ws/build/feature_matcher -- -j8 -l8
+[3.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/polaris_ranger_ev' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/polaris_ranger_ev --target tests -- -j8 -l8
+[3.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/cart_launch' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/cart_launch --target tests -- -j8 -l8
+[3.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/barrel_slam' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/barrel_slam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/barrel_slam
+[3.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/barrel_slam': /usr/bin/cmake --build /home/tutu/ws/build/barrel_slam -- -j8 -l8
+[3.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/polaris_ranger_ev': /usr/bin/cmake --install /home/tutu/ws/build/polaris_ranger_ev
+[3.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/cart_launch': /usr/bin/cmake --install /home/tutu/ws/build/cart_launch
+[8.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf -- -j8 -l8
+[8.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/cart_launch' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/cart_launch
+[8.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/polaris_ranger_ev' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/polaris_ranger_ev
+[9.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_launch', 'ros_package_path')
+[9.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/ros_package_path.ps1'
+[9.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/ros_package_path.dsv'
+[9.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/ros_package_path.sh'
+[9.063s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/tutu/ws/install/cart_launch/lib/python3/dist-packages'
+[9.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_launch', 'pkg_config_path')
+[9.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config_path.ps1'
+[9.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config_path.dsv'
+[9.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config_path.sh'
+[9.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_launch', 'pkg_config_path_multiarch')
+[9.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config_path_multiarch.ps1'
+[9.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config_path_multiarch.dsv'
+[9.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config_path_multiarch.sh'
+[9.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cart_launch)
+[9.103s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/cart_launch' for CMake module files
+[9.104s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/cart_launch' for CMake config files
+[9.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_launch', 'cmake_prefix_path')
+[9.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.ps1'
+[9.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.dsv'
+[9.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.sh'
+[9.110s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/cart_launch/lib'
+[9.110s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/cart_launch/bin'
+[9.110s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/cart_launch/lib/pkgconfig/cart_launch.pc'
+[9.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_launch', 'pkg_config')
+[9.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config.ps1'
+[9.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config.dsv'
+[9.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/cart_launch/share/cart_launch/hook/pkg_config.sh'
+[9.117s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/cart_launch/lib/python3.8/site-packages'
+[9.118s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/cart_launch/bin'
+[9.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/cart_launch/share/cart_launch/package.ps1'
+[9.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ws/install/cart_launch/share/cart_launch/package.dsv'
+[9.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/cart_launch/share/cart_launch/package.sh'
+[9.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/cart_launch/share/cart_launch/package.bash'
+[9.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/cart_launch/share/cart_launch/package.zsh'
+[9.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ws/install/cart_launch/share/colcon-core/packages/cart_launch)
+[9.137s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/stage_controller' with build type 'catkin'
+[9.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/stage_controller'
+[9.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.142s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[9.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_ranger_ev', 'ros_package_path')
+[9.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/ros_package_path.ps1'
+[9.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/ros_package_path.dsv'
+[9.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/ros_package_path.sh'
+[9.155s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/tutu/ws/install/polaris_ranger_ev/lib/python3/dist-packages'
+[9.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_ranger_ev', 'pkg_config_path')
+[9.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config_path.ps1'
+[9.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config_path.dsv'
+[9.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config_path.sh'
+[9.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_ranger_ev', 'pkg_config_path_multiarch')
+[9.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config_path_multiarch.ps1'
+[9.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config_path_multiarch.dsv'
+[9.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config_path_multiarch.sh'
+[9.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polaris_ranger_ev)
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/polaris_ranger_ev' for CMake module files
+[9.164s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/polaris_ranger_ev' for CMake config files
+[9.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_ranger_ev', 'cmake_prefix_path')
+[9.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/cmake_prefix_path.ps1'
+[9.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/cmake_prefix_path.dsv'
+[9.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/cmake_prefix_path.sh'
+[9.169s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/polaris_ranger_ev/lib'
+[9.169s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/polaris_ranger_ev/bin'
+[9.169s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/polaris_ranger_ev/lib/pkgconfig/polaris_ranger_ev.pc'
+[9.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_ranger_ev', 'pkg_config')
+[9.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config.ps1'
+[9.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config.dsv'
+[9.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/hook/pkg_config.sh'
+[9.173s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/polaris_ranger_ev/lib/python3.8/site-packages'
+[9.174s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/polaris_ranger_ev/bin'
+[9.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/package.ps1'
+[9.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/package.dsv'
+[9.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/package.sh'
+[9.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/package.bash'
+[9.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/polaris_ranger_ev/share/polaris_ranger_ev/package.zsh'
+[9.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ws/install/polaris_ranger_ev/share/colcon-core/packages/polaris_ranger_ev)
+[9.182s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin' with build type 'catkin'
+[9.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ws/MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin'
+[9.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.186s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[9.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/stage_controller': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/stage_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/stage_controller
+[9.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/vehicle_ros_plugin': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/vehicle_ros_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/vehicle_ros_plugin
+[9.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf --target tests -- -j8 -l8
+[9.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner -- -j8 -l8
+[10.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/simple_planner': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner --target tests -- -j8 -l8
+[10.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/simple_controller' returned '2': /usr/bin/cmake --build /home/tutu/ws/build/simple_controller -- -j8 -l8
+[10.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf --target tests -- -j8 -l8
+[10.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ws/build/simple_planner' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_planner --target tests -- -j8 -l8
+[10.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --install /home/tutu/ws/build/odo2tf
+[10.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_controller', 'ros_package_path')
+[10.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/ros_package_path.ps1'
+[10.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/ros_package_path.dsv'
+[10.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/ros_package_path.sh'
+[10.591s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/tutu/ws/install/simple_controller/lib/python3/dist-packages'
+[10.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_controller', 'pkg_config_path')
+[10.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/pkg_config_path.ps1'
+[10.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/pkg_config_path.dsv'
+[10.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/pkg_config_path.sh'
+[10.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_controller', 'pkg_config_path_multiarch')
+[10.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/pkg_config_path_multiarch.ps1'
+[10.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/pkg_config_path_multiarch.dsv'
+[10.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ws/install/simple_controller/share/simple_controller/hook/pkg_config_path_multiarch.sh'
+[10.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_controller)
+[10.601s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/simple_controller' for CMake module files
+[10.601s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/simple_controller' for CMake config files
+[10.602s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/simple_controller/bin'
+[10.602s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/simple_controller/lib/pkgconfig/simple_controller.pc'
+[10.603s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/simple_controller/lib/python3.8/site-packages'
+[10.604s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ws/install/simple_controller/bin'
+[10.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/simple_controller/share/simple_controller/package.ps1'
+[10.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ws/install/simple_controller/share/simple_controller/package.dsv'
+[10.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/simple_controller/share/simple_controller/package.sh'
+[10.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/simple_controller/share/simple_controller/package.bash'
+[10.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ws/install/simple_controller/share/simple_controller/package.zsh'
+[10.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ws/install/simple_controller/share/colcon-core/packages/simple_controller)
+[13.730s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.730s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.730s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[13.730s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.739s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.755s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.756s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tutu/ws/install/local_setup.ps1'
+[13.757s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tutu/ws/install/_local_setup_util_ps1.py'
+[13.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tutu/ws/install/setup.ps1'
+[13.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tutu/ws/install/local_setup.sh'
+[13.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tutu/ws/install/_local_setup_util_sh.py'
+[13.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tutu/ws/install/setup.sh'
+[13.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tutu/ws/install/local_setup.bash'
+[13.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tutu/ws/install/setup.bash'
+[13.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tutu/ws/install/local_setup.zsh'
+[13.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tutu/ws/install/setup.zsh'

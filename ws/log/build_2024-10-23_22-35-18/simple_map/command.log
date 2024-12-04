@@ -1,0 +1,6 @@
+Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake --build /home/tutu/ws/build/simple_map -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/simple_map' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_map -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake --build /home/tutu/ws/build/simple_map --target tests -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/simple_map' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/simple_map --target tests -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake --install /home/tutu/ws/build/simple_map
+Invoked command in '/home/tutu/ws/build/simple_map' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/simple_map

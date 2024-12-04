@@ -1,0 +1,2 @@
+Invoking command in '/home/tutu/ws/build/velocity_controller': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/velocity_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/velocity_controller
+Invoked command in '/home/tutu/ws/build/velocity_controller' returned '1': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/velocity_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/velocity_controller

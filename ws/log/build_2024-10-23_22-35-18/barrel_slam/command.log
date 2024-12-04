@@ -1,0 +1,6 @@
+Invoking command in '/home/tutu/ws/build/barrel_slam': /usr/bin/cmake --build /home/tutu/ws/build/barrel_slam -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/barrel_slam' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/barrel_slam -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/barrel_slam': /usr/bin/cmake --build /home/tutu/ws/build/barrel_slam --target tests -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/barrel_slam' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/barrel_slam --target tests -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/barrel_slam': /usr/bin/cmake --install /home/tutu/ws/build/barrel_slam
+Invoked command in '/home/tutu/ws/build/barrel_slam' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/barrel_slam

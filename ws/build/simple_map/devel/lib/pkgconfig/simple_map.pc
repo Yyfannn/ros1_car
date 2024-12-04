@@ -1,0 +1,8 @@
+prefix=/home/tutu/ws/build/simple_map/devel
+
+Name: simple_map
+Description: Description of simple_map
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

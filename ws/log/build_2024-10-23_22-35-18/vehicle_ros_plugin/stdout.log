@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target vehicle_ros_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vehicle_ros_plugin.dir/src/VehicleRosPlugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libvehicle_ros_plugin.so[0m
+[100%] Built target vehicle_ros_plugin

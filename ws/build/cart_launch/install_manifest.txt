@@ -1,0 +1,4 @@
+/home/tutu/ws/install/cart_launch/lib/pkgconfig/cart_launch.pc
+/home/tutu/ws/install/cart_launch/share/cart_launch/cmake/cart_launchConfig.cmake
+/home/tutu/ws/install/cart_launch/share/cart_launch/cmake/cart_launchConfig-version.cmake
+/home/tutu/ws/install/cart_launch/share/cart_launch/package.xml

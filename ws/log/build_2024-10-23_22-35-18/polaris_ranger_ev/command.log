@@ -1,0 +1,6 @@
+Invoking command in '/home/tutu/ws/build/polaris_ranger_ev': /usr/bin/cmake --build /home/tutu/ws/build/polaris_ranger_ev -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/polaris_ranger_ev' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/polaris_ranger_ev -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/polaris_ranger_ev': /usr/bin/cmake --build /home/tutu/ws/build/polaris_ranger_ev --target tests -- -j8 -l8
+Invoked command in '/home/tutu/ws/build/polaris_ranger_ev' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/polaris_ranger_ev --target tests -- -j8 -l8
+Invoking command in '/home/tutu/ws/build/polaris_ranger_ev': /usr/bin/cmake --install /home/tutu/ws/build/polaris_ranger_ev
+Invoked command in '/home/tutu/ws/build/polaris_ranger_ev' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/polaris_ranger_ev

@@ -1,0 +1,9 @@
+[0.040s] Invoking command in '/home/tutu/ws/build/stage_controller': /usr/bin/cmake --build /home/tutu/ws/build/stage_controller -- -j8 -l8
+[0.086s] [35m[1mScanning dependencies of target stage_throttle[0m
+[0.086s] [35m[1mScanning dependencies of target stage_controller[0m
+[0.106s] [ 25%] [32mBuilding CXX object CMakeFiles/stage_throttle.dir/src/stage_throttle.cpp.o[0m
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/stage_controller.dir/src/stage_controller.cpp.o[0m
+[2.129s] [ 75%] [32m[1mLinking CXX executable devel/lib/stage_controller/stage_controller[0m
+[2.209s] [100%] [32m[1mLinking CXX executable devel/lib/stage_controller/stage_throttle[0m
+[2.283s] [100%] Built target stage_controller
+[2.357s] [100%] Built target stage_throttle

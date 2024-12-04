@@ -1,0 +1,8 @@
+prefix=/home/tutu/ws/install/barrel_slam
+
+Name: barrel_slam
+Description: Description of barrel_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

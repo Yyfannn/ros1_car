@@ -1,0 +1,13 @@
+[0.048s] Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf -- -j8 -l8
+[0.132s] [100%] Built target odo2tf
+[0.151s] Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf -- -j8 -l8
+[0.247s] Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf --target tests -- -j8 -l8
+[0.318s] Built target tests
+[0.343s] Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake --build /home/tutu/ws/build/odo2tf --target tests -- -j8 -l8
+[0.434s] Invoking command in '/home/tutu/ws/build/odo2tf': /usr/bin/cmake --install /home/tutu/ws/build/odo2tf
+[0.449s] -- Install configuration: ""
+[0.449s] -- Up-to-date: /home/tutu/ws/install/odo2tf/lib/pkgconfig/odo2tf.pc
+[0.449s] -- Up-to-date: /home/tutu/ws/install/odo2tf/share/odo2tf/cmake/odo2tfConfig.cmake
+[0.450s] -- Up-to-date: /home/tutu/ws/install/odo2tf/share/odo2tf/cmake/odo2tfConfig-version.cmake
+[0.450s] -- Up-to-date: /home/tutu/ws/install/odo2tf/share/odo2tf/package.xml
+[0.464s] Invoked command in '/home/tutu/ws/build/odo2tf' returned '0': /usr/bin/cmake --install /home/tutu/ws/build/odo2tf

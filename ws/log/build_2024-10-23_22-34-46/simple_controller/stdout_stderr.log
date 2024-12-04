@@ -1,0 +1,122 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/tutu/ws/build/simple_controller/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/tutu/ws/build/simple_controller/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tutu/ws/build/simple_controller
+[35m[1mScanning dependencies of target simple_controller_gencfg[0m
+[ 25%] [34m[1mGenerating dynamic reconfigure files from cfg/ControllerDynReconf.cfg: /home/tutu/ws/build/simple_controller/devel/include/simple_controller/ControllerDynReconfConfig.h /home/tutu/ws/build/simple_controller/devel/lib/python3/dist-packages/simple_controller/cfg/ControllerDynReconfConfig.py[0m
+Generating reconfiguration files for ControllerDynReconf in simple_controller
+Wrote header file in /home/tutu/ws/build/simple_controller/devel/include/simple_controller/ControllerDynReconfConfig.h
+[ 25%] Built target simple_controller_gencfg
+[35m[1mScanning dependencies of target controller_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o[0m
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvoid simple_controller::Controller::on_path(const Path&)[m[K’:
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_point_index[m[K’ was not declared in this scope; did you mean ‘[01m[Knearest_point_index[m[K’?
+   74 |   [01;31m[Ktarget_point_index[m[K = 0;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Knearest_point_index[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvoid simple_controller::Controller::on_timer(const ros::TimerEvent&)[m[K’:
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:150:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_point_index[m[K’ was not declared in this scope; did you mean ‘[01m[Knearest_point_index[m[K’?
+  150 | [01;31m[Ktarget_point_index[m[K = get_target_path_pose_index(target_point_index, lookahead_distance);
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      | [32m[Knearest_point_index[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:150:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_target_path_pose_index[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_nearest_path_pose_index[m[K’?
+  150 | target_point_index = [01;31m[Kget_target_path_pose_index[m[K(target_point_index, lookahead_distance);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                      [32m[Kget_nearest_path_pose_index[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:165:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  165 | void Controller::on_pose[01;31m[K([m[Kconst nav_msgs::OdometryConstPtr& odom)
+      |                         [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:176:24:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  176 | void Controller::on_odo[01;31m[K([m[Kconst nav_msgs::OdometryConstPtr& odom)
+      |                        [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:183:31:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  183 | void Controller::publish_error[01;31m[K([m[Kdouble error)
+      |                               [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:190:37:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  190 | double Controller::cross_track_error[01;31m[K([m[K)
+      |                                     [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:216:36:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  216 | void Controller::publish_trajectory[01;31m[K([m[K)
+      |                                    [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:222:23:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  222 | void Controller::reset[01;31m[K([m[K)
+      |                       [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:228:23:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  228 | void Controller::reset[01;31m[K([m[Kdouble p, double d, double i)
+      |                       [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:236:39:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  236 | nav_msgs::Path Controller::create_path[01;31m[K([m[K) const {
+      |                                       [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:281:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  281 | Controller::Controller([01;31m[Kconst[m[K std::string& ns):
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:281:45:[m[K [01;31m[Kerror: [m[Kcannot call constructor ‘[01m[Ksimple_controller::Controller::Controller[m[K’ directly [[01;31m[K-fpermissive[m[K]
+  281 | Controller::Controller(const std::string& ns[01;31m[K)[m[K:
+      |                                             [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:281:45:[m[K [01;36m[Knote: [m[Kfor a function-style cast, remove the redundant ‘[01m[K::Controller[m[K’
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:325:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksimple_controller::Controller::~Controller()[m[K’
+  325 | Controller::~Controller([01;31m[K)[m[K
+      |                         [01;31m[K^[m[K
+In file included from [01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:8[m[K:
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.h:121:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual simple_controller::Controller::~Controller()[m[K’
+  121 |   virtual [01;36m[K~[m[KController();
+      |           [01;36m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.h:121:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:332:35:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  332 | double Controller::get_pid_control[01;31m[K([m[Kdouble error)
+      |                                   [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:346:51:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  346 | std::size_t Controller::get_target_path_pose_index[01;31m[K([m[Kint old_target_index, double ld)
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:366:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  366 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:144:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  144 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:[m[K At global scope:
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:366:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  366 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_controller/src/controller.cpp:15:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/controller_node.dir/build.make:76：CMakeFiles/controller_node.dir/src/controller.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:1008：CMakeFiles/controller_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

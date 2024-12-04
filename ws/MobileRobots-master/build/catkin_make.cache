@@ -1,0 +1,2 @@
+mr_ws/src/barrel_slam:mr_ws/src/cart_launch:mr_ws/src/feature_matcher:mr_ws/src/mpc_controller:mr_ws/src/odo2tf:mr_ws/src/polaris_ranger_ev:mr_ws/src/simple_controller:mr_ws/src/simple_map:mr_ws/src/simple_planner:mr_ws/src/stage_controller:mr_ws/src/vehicle_ros_plugin:mr_ws/src/velocity_controller
+-DCATKIN_DEVEL_PREFIX=/home/tutu/ws/MobileRobots-master/devel -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/MobileRobots-master/install -G Unix Makefiles

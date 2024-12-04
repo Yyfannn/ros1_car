@@ -1,0 +1,44 @@
+[0.042s] Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_map -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_map
+[2.241s] -- The C compiler identification is GNU 9.4.0
+[2.241s] -- The CXX compiler identification is GNU 9.4.0
+[2.241s] -- Check for working C compiler: /usr/bin/cc
+[2.241s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.241s] -- Detecting C compiler ABI info
+[2.241s] -- Detecting C compiler ABI info - done
+[2.241s] -- Detecting C compile features
+[2.241s] -- Detecting C compile features - done
+[2.241s] -- Check for working CXX compiler: /usr/bin/c++
+[2.241s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.242s] -- Detecting CXX compiler ABI info
+[2.242s] -- Detecting CXX compiler ABI info - done
+[2.242s] -- Detecting CXX compile features
+[2.242s] -- Detecting CXX compile features - done
+[2.242s] -- Using CATKIN_DEVEL_PREFIX: /home/tutu/ws/build/simple_map/devel
+[2.242s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[2.242s] -- This workspace overlays: /opt/ros/noetic
+[2.242s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.242s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.242s] -- Using Debian Python package layout
+[2.242s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.242s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.242s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.242s] -- Call enable_testing()
+[2.242s] -- Using CATKIN_TEST_RESULTS_DIR: /home/tutu/ws/build/simple_map/test_results
+[2.243s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.243s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.243s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.243s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.243s] -- Found Threads: TRUE  
+[2.243s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.243s] -- catkin 0.8.10
+[2.243s] -- BUILD_SHARED_LIBS is on
+[2.243s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.698s] -- Configuring done
+[2.743s] -- Generating done
+[2.752s] -- Build files have been written to: /home/tutu/ws/build/simple_map
+[2.779s] Invoked command in '/home/tutu/ws/build/simple_map' returned '0': /usr/bin/cmake /home/tutu/ws/MobileRobots-master/src/mr_ws/src/simple_map -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tutu/ws/install/simple_map
+[2.781s] Invoking command in '/home/tutu/ws/build/simple_map': /usr/bin/cmake --build /home/tutu/ws/build/simple_map -- -j8 -l8
+[2.864s] [35m[1mScanning dependencies of target simple_map_node[0m
+[2.919s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_map_node.dir/src/simple_map.cpp.o[0m
+[10.263s] [100%] [32m[1mLinking CXX executable devel/lib/simple_map/simple_map_node[0m
+[10.501s] [100%] Built target simple_map_node

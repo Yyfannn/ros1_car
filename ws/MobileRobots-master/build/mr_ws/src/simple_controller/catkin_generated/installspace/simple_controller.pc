@@ -1,0 +1,8 @@
+prefix=/home/tutu/ws/MobileRobots-master/install
+
+Name: simple_controller
+Description: Description of simple_controller
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
